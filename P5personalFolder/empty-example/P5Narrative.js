@@ -9,7 +9,6 @@ var secondOption;
 var thirdOption; 
 var fourthOption; 
 var random;
-var dog;
 var userName; 
 
 // inputs
@@ -20,10 +19,9 @@ var nameInput;
 
 var easyWayToggle;
 
-function preload(){
+function preload() {
 
-	dog = loadImage('../images/dogwatermelon.jpg');	
-
+	img = loadImage('./Images/dogwatermelon.jpg');
 }
 
 function setup() {
@@ -52,9 +50,7 @@ function gameStart(){
 
 function puppyPic() {
 
-	background('blue');
-
-	image(dog,windowWidth/2, windowHeight/2);
+	image(img, windowWidth/2, windowHeight/2,)
 }
 
 function storyStart() {
