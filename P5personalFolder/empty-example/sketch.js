@@ -20,11 +20,11 @@ var nameInput;
 
 var easyWayToggle;
 
-//function preload(){
+function preload(){
 
-//	dog = loadImage('../images/dogwatermelon.jpg');	
+	dog = loadImage('../images/dogwatermelon.jpg');	
 
-// }
+}
 
 function setup() {
 
@@ -48,6 +48,7 @@ function gameStart(){
 	createElement("br");
 
 	random = createButton('What this oWo?');
+	random.position(windowWidth/2, windowHeight/2);
 	random.mousePressed(puppyPic);
 
 }
@@ -56,7 +57,7 @@ function puppyPic() {
 
 	background('blue');
 
-	// image(dog,windowWidth/2, windowHeight/2);
+	image(dog,windowWidth/2, windowHeight/2);
 }
 
 function storyStart() {
