@@ -42,7 +42,7 @@ function gameStart(){
 	intro = createP("What is your name?");
 	createElement("br");
 
-	nameInput = createInput("Type your name in here.");
+	nameInput = createInput("Type your name!");
 	nameInput.changed(storyStart);
 	createElement("br");
 	createElement("br");
