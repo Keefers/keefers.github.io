@@ -57,7 +57,7 @@ function puppyPic() {
 
 	background('blue');
 
-	image(dog,windowWidth/2, windowHeight/2, img.width/2, img.height/2);
+	image(dog,0, windowHeight/2, img.width/2, img.height/2);
 }
 
 function storyStart() {
