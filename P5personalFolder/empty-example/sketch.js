@@ -60,7 +60,8 @@ function puppyPic() {
 
 	var tempPar = createP("Just thought a picture of a dog would make your day better!");
 
-	image(dog,windowWidth/2 - 175, windowHeight/2 - 500, dog.width/5, dog.height/5);
+	imageMode(CENTER);
+	image(dog,windowWidth/2, windowHeight/2, dog.width/5, dog.height/5);
 }
 
 function storyStart() {
