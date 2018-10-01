@@ -55,15 +55,19 @@ function gameStart(){
 
 function puppyPic() {
 
-	background('blue');
+	random.hide();
+	createElement("br");
 
-	image(dog,windowWidth/2 - 350, windowHeight/2 - 350, dog.width/5, dog.height/5);
+	var tempPar = createP("Just thought a picture of a dog would make your day better!");
+
+	image(dog,windowWidth/2 - 175, windowHeight/2 - 500, dog.width/5, dog.height/5);
 }
 
 function storyStart() {
 
 	nameInput.hide();
 	intro.hide();
+	tempPar.hide();
 
 	userName = createElement('h1', nameInput.value());
 	title = createElement('h1', "Can you find your way out?");
