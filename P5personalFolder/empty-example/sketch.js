@@ -44,6 +44,8 @@ function gameStart(){
 
 	nameInput = createInput("Type your name in here.");
 	nameInput.changed(storyStart);
+	createElement("br");
+	createElement("br");
 
 	random = createButton('What this oWo?');
 	random.mousePressed(puppyPic);
