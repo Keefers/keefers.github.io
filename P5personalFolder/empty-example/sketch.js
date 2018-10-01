@@ -40,9 +40,11 @@ function gameStart(){
 	background(0);
 
 	intro = createP("What is your name?");
+	intro.style("padding-left", "1");
 	createElement("br");
 
 	nameInput = createInput("Type your name!");
+	nameInput.style("padding-left", "1");
 	nameInput.changed(storyStart);
 	createElement("br");
 	createElement("br");
